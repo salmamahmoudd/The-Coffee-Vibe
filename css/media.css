@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+.about {
+    flex-direction: column;
+    text-align: center;
+  }
+.about-image img {
+    width: 100%;
+  }
+.contact-visitor {
+    flex-direction: column;
+  }
+.reviews-container {
+    flex-direction: column;
+    align-items: center;
+  }
+.menu-toggle {
+    display: block;
+  }
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #5b3c2a;
+    gap: 15px;
+    text-align: center;
+    padding: 10px 0;
+    overflow: hidden;
+  }
+.nav-links.open {
+    display: flex;
+  }
+.nav-links a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    }
+    .nav-links li a {
+    display: block;          
+    text-decoration: none;   
+    color: #fff;             
+ }
+ .map iframe{
+    width: 100%;
+    height: 300px;
+}
+}
