@@ -36,7 +36,7 @@
     overflow: hidden;
   }
 .nav-links.open {
-    display: block;
+    display: flex;
   }
 .nav-links a {
     font-size: 1.2rem;
@@ -65,4 +65,94 @@ footer{
   text-align: center;
   padding: 20px;
 }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+  .home-content h1{
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  .about{
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+  }
+  .about-image img{
+    width: 50%;
+  }
+  .about-text{
+    width: 50%;
+    text-align: left;
+  }
+  .contact-visitor ,.reviews-container{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .menu-toggle{
+    display: none;
+  }
+  .nav-links{
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    background-color: transparent;
+    gap: 25px;
+    justify-content: flex-end;
+  }
+  .nav-links a{
+    color: #fff;
+    font-size: 1rem;
+  }
+  .items{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  .map iframe{
+    height: 350px;
+  }
+  footer{
+    text-align: center;
+    padding: 20px ;
+  }
+}
+@media (min-width: 1025px){
+  .home-content h1{
+    font-size: 3rem;
+  }
+  .about{
+    flex-direction: row;
+    align-items: center;
+    padding: 80px;
+  }
+  .about-image img{
+    width: 100%;
+  }
+  .about-text{
+    width: 100%;
+    text-align: left;
+  }
+  .contact-visitor , .reviews-container{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+  }
+  .items{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .map iframe{
+    width: 600px;
+    height: 300px;
+  }
+  .btn, .btn-small ,.btn-outline{
+    font-size: 1.2rem;
+  }
+  footer{
+    text-align: center;
+    padding: 30px;
+  }
 }

@@ -63,7 +63,7 @@ nav.container {
 }
 .home {
     background: url("./../images/coffee-logo.jpg") center/cover no-repeat;
-    height: 100vh;
+    height: 94vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,7 +272,6 @@ nav.container {
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
     justify-content: center;
 }
 .contact form , .map{
